@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <h1>Ease-Peasy Form</h1>
+<form  method="POST" data-netlify="true">
+  <div>
+    <label for="firstName">Ismingiz</label>
+    <input type="text" name="firstName" id="firstName" value="" />
+  </div>
+  <br>
+  <div>
+    <label for="email">Emailingiz</label>
+    <input type="email" name="email" id="email" value="" />
+  </div>
+  <br>
+  <div>
+      <label for="password">Parolingiz</label>
+      <input type="text" name="password" id="password" value="" />
+    </div>
+    <br>
+  <div>
+        <label for="message">Xabaringiz</label> <br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </div>
+      <br>
+      <div class="field">
+        <div data-netlify-recaptcha="true"></div>
+      </div>
+      <br>
+      <button type="submit">Yuborish</button>
+</form>
+</body>
+
+</html>
